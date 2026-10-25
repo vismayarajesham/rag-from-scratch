@@ -1,0 +1,22 @@
+Nova Robotics — NovaBot X1 Product Overview
+
+The NovaBot X1 is a household assistant robot released by Nova Robotics in March 2024.
+It is designed for indoor use only and is not waterproof. The recommended operating
+temperature range is 10 to 35 degrees Celsius.
+
+Battery and charging: The NovaBot X1 uses a 5200 mAh lithium-ion battery. On a full
+charge it runs for approximately 6 hours of normal use. A full charge takes 90 minutes
+using the included 24V charger. The battery is not user-replaceable and must be serviced
+by an authorized Nova Robotics center.
+
+Warranty: The NovaBot X1 comes with an 18 month limited warranty covering manufacturing
+defects. The warranty does not cover water damage, physical impact damage, or battery
+degradation after 12 months. Extended warranty of up to 36 months can be purchased
+within 30 days of the original purchase date.
+
+Support: Customer support is available Monday to Friday, 9 AM to 6 PM India Standard Time.
+The support email is support@novarobotics.example. Phone support is available only for
+customers who purchased the NovaBot X1 directly from the Nova Robotics website.
+
+Firmware updates are released every quarter and are installed automatically over Wi-Fi.
+Users can delay an update by up to 7 days from the notification.
