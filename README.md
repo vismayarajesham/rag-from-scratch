@@ -6,7 +6,7 @@ The system indexes documents (`.txt` and `.pdf`), performs semantic search, retr
 
 ---
 
-## Features
+Features
 
 - Document Indexing (`.txt` + `.pdf`)
 - Semantic Search with Embeddings (`all-MiniLM-L6-v2`)
@@ -20,8 +20,7 @@ The system indexes documents (`.txt` and `.pdf`), performs semantic search, retr
 - Multi-Document Support (tested with `novabot.txt` + `novabot_x2_manual.pdf`)
 
 ---
-
-## Tech Stack
+ Tech Stack
 
 - Python 3.12
 - LangChain (loaders, splitters, embeddings, retrieval chains)
@@ -65,7 +64,7 @@ text
 
 ---
 
-## How It Works
+ How It Works
 
 1. **Load** → `TextLoader` / `PyPDFLoader` reads files into `Document` objects
 2. **Split** → chunks of ~300 chars with 50-char overlap
@@ -78,7 +77,7 @@ text
 
 ---
 
-## Tested Demonstrations
+Tested Demonstrations
 
 | Question | Source | Result |
 |---|---|---|
@@ -90,29 +89,29 @@ text
 
 ---
 
-## Installation & Run
+Installation & Run
 
 ```bash
-# 1. Clone and create environment
+1. Clone and create environment
 python -m venv .venv
 .venv\Scripts\Activate.ps1  # Windows
 
-# 2. Install
+2. Install
 pip install -r requirements.txt
 
-# 3. Pull local LLM (one-time, ~2 GB)
+ 3. Pull local LLM (one-time, ~2 GB)
 ollama pull llama3.2:3b
 
-# 4. Build index (after placing your .txt / .pdf in data/)
+4. Build index (after placing your .txt / .pdf in data/)
 python src/build_vectorstore_v2.py
 
-# 5. Launch Streamlit UI
+5. Launch Streamlit UI
 streamlit run app.py
-# Open: http://localhost:8501
+Open: http://localhost:8501
 
-# 6. Launch FastAPI (optional, separate terminal)
+6. Launch FastAPI (optional, separate terminal)
 uvicorn api:app --reload
-# Open: http://127.0.0.1:8000/docs
+Open: http://127.0.0.1:8000/docs
 Live Demo / Screenshot
 Local Streamlit interface: http://localhost:8501
 
