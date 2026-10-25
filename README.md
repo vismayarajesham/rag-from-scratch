@@ -34,7 +34,7 @@ Features
 
 ---
 
-## Project Structure
+Project Structure
 rag-from-scratch/
 ├── data/ # Documents to index (txt + pdf)
 │ ├── novabot.txt
