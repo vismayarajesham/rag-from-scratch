@@ -117,7 +117,9 @@ Live Demo / Screenshot
 Local Streamlit interface: http://localhost:8501
 
 Demo Screenshot
-c:\Users\vismaya\OneDrive\Pictures\Screenshots\Screenshot 2026-10-25 120927.png
-c:\Users\vismaya\OneDrive\Pictures\Screenshots\Screenshot 2026-10-25 120848.png
+<img width="1808" height="865" alt="Screenshot 2026-10-25 120927" src="https://github.com/user-attachments/assets/e64cc795-0786-4858-aeb5-ad3465a9c6c6" />
+
+<img width="1897" height="899" alt="Screenshot 2026-10-25 120848" src="https://github.com/user-attachments/assets/dd55e571-3f1a-4d8e-8b5e-0469e20616ad" />
+
 Author
 Vismaya Rajesh A M B.Tech Computer Science and Engineering
